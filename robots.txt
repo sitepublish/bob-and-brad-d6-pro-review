@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sitepublish.github.io/bob-and-brad-d6-pro-review/sitemap.xml
+Sitemap: https://sitepublish.gitlab.io/bob-and-brad-d6-pro-review/sitemap.xml

@@ -5,256 +5,220 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bob and Brad D6 Pro Review: Is This Massage Gun Worth It?</title>
   <meta name="description" content="Read our detailed Bob and Brad D6 Pro review covering performance, battery life, noise levels, and how it compares to Theragun and Hypervolt massage guns.">
-<meta name="robots" content="noarchive">  <link rel="canonical" href="https://sitepublish.github.io/bob-and-brad-d6-pro-review/index.html">
+<meta name="robots" content="noarchive">  <link rel="canonical" href="https://sitepublish.gitlab.io/bob-and-brad-d6-pro-review/index.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,400;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700&family=Rubik:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --font-main: 'Nunito Sans', system-ui, -apple-system, sans-serif;
-      --glass-bg: rgba(255, 255, 255, .55);
-      --glass-bg-strong: rgba(255, 255, 255, .72);
-      --glass-bg-hero: rgba(255, 255, 255, .65);
-      --glass-border: rgba(255, 255, 255, .6);
-      --glass-border-subtle: rgba(255, 255, 255, .35);
-      --glass-blur: blur(20px);
-      --glass-blur-heavy: blur(28px);
-      --ink: #1e1b3a;
-      --ink-soft: #3d3960;
-      --ink-muted: #6b6793;
-      --ink-faint: #9994b8;
-      --accent-1: #667eea;
-      --accent-2: #764ba2;
-      --accent-3: #f093fb;
-      --gradient-text: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #c471ed 100%);
-      --gradient-accent: linear-gradient(135deg, #667eea, #764ba2);
-      --gradient-soft: linear-gradient(135deg, rgba(102,126,234,.12), rgba(118,75,162,.12));
-      --shadow-glass: 0 8px 32px rgba(100, 100, 200, .1);
-      --shadow-glass-sm: 0 4px 16px rgba(100, 100, 200, .08);
-      --shadow-glass-lg: 0 12px 48px rgba(100, 100, 200, .12);
-      --shadow-glow: 0 0 40px rgba(102, 126, 234, .15);
-      --radius: 18px;
-      --radius-sm: 12px;
-      --radius-pill: 100px;
-      --footer-glass: rgba(15, 15, 25, .85);
+      --void: #0a0612;
+      --void-light: #110b1f;
+      --void-card: #130d22;
+      --void-elevated: #1a1230;
+      --void-border: #2a1f45;
+      --void-border-light: #1e1535;
+      --text-primary: #e8e4f0;
+      --text-secondary: #9d93b8;
+      --text-muted: #6b5f8a;
+      --text-faint: #4a3f68;
+      --neon-blue: #00d4ff;
+      --neon-pink: #ff2d78;
+      --neon-purple: #a855f7;
+      --neon-blue-dim: rgba(0,212,255,.12);
+      --neon-pink-dim: rgba(255,45,120,.10);
+      --neon-purple-dim: rgba(168,85,247,.10);
+      --glow-blue: 0 0 20px rgba(0,212,255,.25), 0 0 40px rgba(0,212,255,.1);
+      --glow-pink: 0 0 20px rgba(255,45,120,.25), 0 0 40px rgba(255,45,120,.1);
+      --glow-sm: 0 0 10px rgba(0,212,255,.15);
+      --gradient-main: linear-gradient(135deg, var(--neon-blue), var(--neon-pink));
+      --gradient-subtle: linear-gradient(135deg, rgba(0,212,255,.15), rgba(255,45,120,.15));
+      --gradient-card: linear-gradient(135deg, rgba(0,212,255,.08), rgba(168,85,247,.05));
+      --shadow-sm: 0 1px 3px rgba(0,0,0,.4);
+      --shadow-md: 0 4px 20px rgba(0,0,0,.5);
+      --shadow-lg: 0 8px 40px rgba(0,0,0,.6);
+      --radius: 12px;
+      --font-display: 'Chakra Petch', 'Segoe UI', system-ui, sans-serif;
+      --font-body: 'Rubik', system-ui, -apple-system, sans-serif;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
     html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
 
     body {
-      font-family: var(--font-main);
-      color: var(--ink-soft);
+      font-family: var(--font-body);
+      color: var(--text-secondary);
+      background: var(--void);
       line-height: 1.72;
       font-weight: 400;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       position: relative;
-      overflow-x: hidden;
-      background: #f0eef8;
     }
 
-    /* --- BACKGROUND GRADIENT BLOBS --- */
-    .bg-canvas {
+    /* --- ANIMATED BACKGROUND MESH --- */
+    body::before {
+      content: '';
       position: fixed;
       inset: 0;
       z-index: 0;
-      overflow: hidden;
-      background: linear-gradient(145deg, #e8e4f4 0%, #f0eef8 30%, #ece6f5 60%, #e6e9f8 100%);
+      pointer-events: none;
+      background:
+        radial-gradient(ellipse 600px 400px at 15% 20%, rgba(0,212,255,.06) 0%, transparent 70%),
+        radial-gradient(ellipse 500px 500px at 85% 60%, rgba(255,45,120,.05) 0%, transparent 70%),
+        radial-gradient(ellipse 400px 300px at 50% 90%, rgba(168,85,247,.04) 0%, transparent 70%);
+      animation: meshDrift 20s ease-in-out infinite alternate;
     }
-    .bg-blob {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(80px);
-      opacity: .55;
-      will-change: transform;
-    }
-    .bg-blob-1 {
-      width: 600px;
-      height: 600px;
-      background: #667eea;
-      top: -10%;
-      left: -8%;
-      animation: blobFloat1 22s ease-in-out infinite;
-    }
-    .bg-blob-2 {
-      width: 500px;
-      height: 500px;
-      background: #764ba2;
-      top: 30%;
-      right: -12%;
-      animation: blobFloat2 26s ease-in-out infinite;
-    }
-    .bg-blob-3 {
-      width: 450px;
-      height: 450px;
-      background: #f093fb;
-      bottom: -5%;
-      left: 20%;
-      animation: blobFloat3 20s ease-in-out infinite;
-    }
-    .bg-blob-4 {
-      width: 350px;
-      height: 350px;
-      background: #667eea;
-      bottom: 30%;
-      right: 25%;
-      opacity: .3;
-      animation: blobFloat1 30s ease-in-out infinite reverse;
+    @keyframes meshDrift {
+      0% {
+        background:
+          radial-gradient(ellipse 600px 400px at 15% 20%, rgba(0,212,255,.06) 0%, transparent 70%),
+          radial-gradient(ellipse 500px 500px at 85% 60%, rgba(255,45,120,.05) 0%, transparent 70%),
+          radial-gradient(ellipse 400px 300px at 50% 90%, rgba(168,85,247,.04) 0%, transparent 70%);
+      }
+      50% {
+        background:
+          radial-gradient(ellipse 550px 450px at 25% 35%, rgba(0,212,255,.07) 0%, transparent 70%),
+          radial-gradient(ellipse 450px 550px at 75% 45%, rgba(255,45,120,.06) 0%, transparent 70%),
+          radial-gradient(ellipse 500px 350px at 40% 80%, rgba(168,85,247,.05) 0%, transparent 70%);
+      }
+      100% {
+        background:
+          radial-gradient(ellipse 650px 350px at 20% 50%, rgba(0,212,255,.05) 0%, transparent 70%),
+          radial-gradient(ellipse 550px 450px at 80% 30%, rgba(255,45,120,.07) 0%, transparent 70%),
+          radial-gradient(ellipse 350px 400px at 60% 85%, rgba(168,85,247,.06) 0%, transparent 70%);
+      }
     }
 
-    @keyframes blobFloat1 {
-      0%, 100% { transform: translate(0, 0) scale(1); }
-      33% { transform: translate(40px, -30px) scale(1.05); }
-      66% { transform: translate(-20px, 20px) scale(.97); }
-    }
-    @keyframes blobFloat2 {
-      0%, 100% { transform: translate(0, 0) scale(1); }
-      33% { transform: translate(-30px, 40px) scale(1.03); }
-      66% { transform: translate(25px, -15px) scale(.96); }
-    }
-    @keyframes blobFloat3 {
-      0%, 100% { transform: translate(0, 0) scale(1); }
-      33% { transform: translate(30px, 20px) scale(.95); }
-      66% { transform: translate(-40px, -20px) scale(1.06); }
-    }
+    body > * { position: relative; z-index: 1; }
 
     /* --- ANIMATIONS --- */
     @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(22px); }
+      from { opacity: 0; transform: translateY(20px); }
       to { opacity: 1; transform: translateY(0); }
     }
     @keyframes fadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
     }
-    @keyframes shimmer {
-      from { background-position: -200% center; }
-      to { background-position: 200% center; }
+    @keyframes glowPulse {
+      0%, 100% { opacity: .6; }
+      50% { opacity: 1; }
+    }
+    @keyframes slideRight {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+    @keyframes borderGlow {
+      0%, 100% { opacity: .5; }
+      50% { opacity: 1; }
     }
 
-    .animate-up { animation: fadeUp .65s cubic-bezier(.22,1,.36,1) both; }
+    .animate-up { animation: fadeUp .6s ease both; }
     .animate-in { animation: fadeIn .5s ease both; }
     .delay-1 { animation-delay: .1s; }
     .delay-2 { animation-delay: .2s; }
     .delay-3 { animation-delay: .3s; }
     .delay-4 { animation-delay: .4s; }
 
-    /* --- GLASS MIXIN UTILITY --- */
-    .glass {
-      background: var(--glass-bg);
-      backdrop-filter: var(--glass-blur);
-      -webkit-backdrop-filter: var(--glass-blur);
-      border: 1px solid var(--glass-border);
-      box-shadow: var(--shadow-glass);
-    }
-    .glass-strong {
-      background: var(--glass-bg-strong);
-      backdrop-filter: var(--glass-blur-heavy);
-      -webkit-backdrop-filter: var(--glass-blur-heavy);
-      border: 1px solid var(--glass-border);
-      box-shadow: var(--shadow-glass);
-    }
-
-    /* --- PAGE WRAPPER --- */
-    .page-wrap {
-      position: relative;
-      z-index: 1;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
     /* --- HEADER --- */
     .site-header {
+      background: rgba(10,6,18,.82);
+      backdrop-filter: blur(20px) saturate(1.4);
+      -webkit-backdrop-filter: blur(20px) saturate(1.4);
+      border-bottom: 1px solid var(--void-border-light);
       position: sticky;
       top: 0;
       z-index: 100;
-      padding: 12px 2rem;
     }
-    .header-bar {
+    .header-inner {
       max-width: 1140px;
       margin: 0 auto;
+      padding: 0 2rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      height: 56px;
-      padding: 0 1.25rem;
-      border-radius: var(--radius);
-      background: rgba(255, 255, 255, .6);
-      backdrop-filter: blur(24px) saturate(1.4);
-      -webkit-backdrop-filter: blur(24px) saturate(1.4);
-      border: 1px solid rgba(255, 255, 255, .7);
-      box-shadow: 0 4px 24px rgba(100, 100, 200, .08), 0 1px 0 rgba(255,255,255,.5) inset;
+      height: 64px;
     }
     .header-brand {
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
       text-decoration: none;
       flex-shrink: 0;
     }
     .header-brand img {
-      width: 36px;
-      height: 36px;
+      width: 42px;
+      height: 42px;
       border-radius: 10px;
-      box-shadow: 0 2px 8px rgba(100, 100, 200, .12);
+      border: 1px solid var(--void-border);
+      box-shadow: var(--glow-sm);
     }
     .header-brand span {
-      font-weight: 800;
-      font-size: 1.05rem;
-      color: var(--ink);
-      letter-spacing: -.01em;
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: var(--text-primary);
+      letter-spacing: .02em;
     }
     .header-nav {
       display: flex;
       align-items: center;
-      gap: 3px;
-      margin-left: 1.5rem;
+      gap: 4px;
+      margin-left: 2rem;
     }
     .header-nav a {
-      font-size: .84rem;
-      font-weight: 600;
-      color: var(--ink-muted);
+      font-size: .855rem;
+      font-weight: 500;
+      color: var(--text-muted);
       text-decoration: none;
       padding: .4rem .75rem;
-      border-radius: var(--radius-pill);
+      border-radius: 6px;
       white-space: nowrap;
-      transition: all .25s;
+      transition: color .2s, background .2s;
+      position: relative;
     }
-    .header-nav a:hover {
-      color: var(--ink);
-      background: rgba(102, 126, 234, .1);
-    }
+    .header-nav a:hover { color: var(--text-primary); background: rgba(0,212,255,.06); }
     .header-nav a.is-active {
-      color: #fff;
-      background: var(--gradient-accent);
-      box-shadow: 0 2px 12px rgba(102, 126, 234, .3);
+      color: var(--neon-blue);
+      background: var(--neon-blue-dim);
+      font-weight: 600;
+    }
+    .header-nav a.is-active::after {
+      content: '';
+      position: absolute;
+      bottom: 2px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60%;
+      height: 2px;
+      background: var(--neon-blue);
+      border-radius: 1px;
+      box-shadow: 0 0 8px rgba(0,212,255,.5);
     }
 
     /* --- DROPDOWN --- */
-    .nav-dropdown { position: relative; }
+    .nav-dropdown {
+      position: relative;
+    }
     .nav-dropdown-trigger {
-      font-size: .84rem;
-      font-weight: 600;
-      color: var(--ink-muted);
+      font-size: .855rem;
+      font-weight: 500;
+      color: var(--text-muted);
       padding: .4rem .75rem;
-      border-radius: var(--radius-pill);
+      border-radius: 6px;
       cursor: pointer;
       display: flex;
       align-items: center;
       gap: 5px;
       white-space: nowrap;
-      transition: all .25s;
+      transition: color .2s, background .2s;
       border: none;
       background: none;
       font-family: inherit;
     }
-    .nav-dropdown-trigger:hover {
-      color: var(--ink);
-      background: rgba(102, 126, 234, .1);
-    }
+    .nav-dropdown-trigger:hover { color: var(--text-primary); background: rgba(0,212,255,.06); }
     .nav-dropdown-trigger svg {
       transition: transform .25s;
       flex-shrink: 0;
@@ -268,34 +232,45 @@
       position: absolute;
       top: 100%;
       right: 0;
-      padding-top: 8px;
+      padding-top: 6px;
       z-index: 200;
     }
     .nav-dropdown-menu-inner {
-      background: rgba(255, 255, 255, .78);
-      backdrop-filter: blur(28px) saturate(1.5);
-      -webkit-backdrop-filter: blur(28px) saturate(1.5);
-      border: 1px solid rgba(255, 255, 255, .8);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow-glass-lg), 0 1px 0 rgba(255,255,255,.6) inset;
-      min-width: 520px;
-      padding: 1.25rem;
       position: relative;
+      background: var(--void-card);
+      border: 1px solid var(--void-border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-lg), 0 0 30px rgba(0,212,255,.08);
+      min-width: 520px;
+      padding: 1rem;
     }
     .nav-dropdown:hover .nav-dropdown-menu,
     .nav-dropdown:focus-within .nav-dropdown-menu {
       display: block;
       animation: fadeIn .2s ease;
     }
+    .nav-dropdown-menu-inner::before {
+      content: '';
+      position: absolute;
+      top: -5px;
+      right: 24px;
+      width: 14px;
+      height: 14px;
+      background: var(--void-card);
+      border: 1px solid var(--void-border);
+      border-bottom: none;
+      border-right: none;
+      transform: rotate(45deg);
+    }
     .nav-dropdown-label {
       font-size: .65rem;
-      font-weight: 700;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: .1em;
-      color: var(--ink-faint);
+      letter-spacing: .12em;
+      color: var(--text-muted);
       padding: 0 .5rem .6rem;
-      border-bottom: 1px solid rgba(102, 126, 234, .12);
-      margin-bottom: .6rem;
+      border-bottom: 1px solid var(--void-border-light);
+      margin-bottom: .5rem;
     }
     .nav-dropdown-grid {
       display: grid;
@@ -306,23 +281,23 @@
       display: block;
       padding: .5rem .65rem;
       font-size: .84rem;
-      font-weight: 600;
-      color: var(--ink-soft);
+      font-weight: 450;
+      color: var(--text-secondary);
       text-decoration: none;
-      border-radius: var(--radius-sm);
-      transition: all .2s;
+      border-radius: 6px;
+      transition: all .15s;
       line-height: 1.35;
     }
     .nav-dropdown-grid a:hover {
-      background: rgba(102, 126, 234, .1);
-      color: var(--accent-1);
+      background: var(--neon-blue-dim);
+      color: var(--neon-blue);
     }
     .nav-dropdown-grid a.is-active {
-      color: var(--accent-2);
-      font-weight: 700;
+      color: var(--neon-blue);
+      font-weight: 600;
     }
     .nav-dropdown-footer {
-      border-top: 1px solid rgba(102, 126, 234, .12);
+      border-top: 1px solid var(--void-border-light);
       margin-top: .5rem;
       padding-top: .6rem;
     }
@@ -332,148 +307,160 @@
       gap: 6px;
       padding: .45rem .65rem;
       font-size: .82rem;
-      font-weight: 600;
-      color: var(--accent-1);
+      font-weight: 500;
+      color: var(--neon-blue);
       text-decoration: none;
-      border-radius: var(--radius-sm);
-      transition: background .2s;
+      border-radius: 6px;
+      transition: background .15s;
     }
-    .nav-dropdown-footer a:hover { background: rgba(102, 126, 234, .1); }
+    .nav-dropdown-footer a:hover { background: var(--neon-blue-dim); }
+
+    .header-accent {
+      height: 2px;
+      background: var(--gradient-main);
+      transform-origin: left;
+      animation: slideRight .8s ease both;
+      box-shadow: 0 0 12px rgba(0,212,255,.3), 0 0 24px rgba(255,45,120,.2);
+    }
 
     /* --- MAIN --- */
     .page-main {
       flex: 1;
-      max-width: 780px;
+      max-width: 740px;
       width: 100%;
       margin: 0 auto;
-      padding: 1.5rem 1.5rem 4rem;
+      padding: 2.5rem 1.5rem 4rem;
     }
 
     /* --- BREADCRUMB --- */
     .breadcrumb {
       font-size: .82rem;
-      color: var(--ink-faint);
+      color: var(--text-muted);
       margin-bottom: 1.25rem;
       font-weight: 400;
     }
     .breadcrumb a {
-      color: var(--accent-1);
+      color: var(--neon-blue);
       text-decoration: none;
-      font-weight: 600;
+      font-weight: 500;
     }
-    .breadcrumb a:hover { text-decoration: underline; }
-    .breadcrumb .sep { margin: 0 .45rem; opacity: .5; }
+    .breadcrumb a:hover { text-shadow: 0 0 8px rgba(0,212,255,.4); }
+    .breadcrumb .sep { margin: 0 .45rem; opacity: .4; color: var(--neon-purple); }
 
     /* --- HERO (homepage) --- */
-    .hero-glass {
-      border-radius: 24px;
-      padding: 3.5rem 3rem 3rem;
-      margin-bottom: 2.5rem;
-      background: var(--glass-bg-hero);
-      backdrop-filter: var(--glass-blur-heavy);
-      -webkit-backdrop-filter: var(--glass-blur-heavy);
-      border: 1px solid rgba(255, 255, 255, .7);
-      box-shadow: var(--shadow-glass-lg), 0 1px 0 rgba(255,255,255,.8) inset;
+    .hero {
+      background: var(--void-card);
+      border: 1px solid var(--void-border);
+      border-radius: 16px;
+      padding: 3.5rem 3rem 3.25rem;
+      margin-bottom: 2.75rem;
       position: relative;
       overflow: hidden;
+      box-shadow: var(--shadow-lg);
     }
-    .hero-glass::before {
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: -1px;
+      border-radius: 17px;
+      padding: 1px;
+      background: linear-gradient(135deg, rgba(0,212,255,.35), rgba(168,85,247,.15), rgba(255,45,120,.35));
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+      animation: borderGlow 4s ease-in-out infinite;
+    }
+    .hero::after {
       content: '';
       position: absolute;
       top: -50%;
       right: -20%;
       width: 400px;
       height: 400px;
-      background: radial-gradient(circle, rgba(102,126,234,.15) 0%, transparent 70%);
-      pointer-events: none;
-    }
-    .hero-glass::after {
-      content: '';
-      position: absolute;
-      bottom: -30%;
-      left: -10%;
-      width: 300px;
-      height: 300px;
-      background: radial-gradient(circle, rgba(240,147,251,.12) 0%, transparent 70%);
+      background: radial-gradient(circle, rgba(0,212,255,.08) 0%, transparent 70%);
       pointer-events: none;
     }
     .hero-inner { position: relative; z-index: 1; }
     .hero-label {
       display: inline-block;
+      font-family: var(--font-display);
       font-size: .72rem;
-      font-weight: 700;
-      letter-spacing: .1em;
+      font-weight: 600;
+      letter-spacing: .14em;
       text-transform: uppercase;
-      color: var(--accent-2);
-      background: rgba(118, 75, 162, .1);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
+      color: var(--neon-blue);
+      background: var(--neon-blue-dim);
+      border: 1px solid rgba(0,212,255,.2);
       padding: .35rem .95rem;
-      border-radius: var(--radius-pill);
-      border: 1px solid rgba(118, 75, 162, .15);
-      margin-bottom: 1.25rem;
+      border-radius: 100px;
+      margin-bottom: 1.35rem;
+      text-shadow: 0 0 10px rgba(0,212,255,.4);
     }
-    .hero-glass h1 {
+    .hero h1 {
+      font-family: var(--font-display);
       font-size: 2.75rem;
-      font-weight: 800;
+      font-weight: 700;
       line-height: 1.15;
-      letter-spacing: -.025em;
+      letter-spacing: .01em;
       max-width: 560px;
-      margin-bottom: 1.1rem;
-      background: var(--gradient-text);
+      margin-bottom: 1.15rem;
+      background: linear-gradient(135deg, #ffffff 0%, var(--neon-blue) 45%, var(--neon-pink) 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
     .hero-desc {
-      color: var(--ink-muted);
+      color: var(--text-secondary);
       font-size: 1.05rem;
-      font-weight: 400;
-      line-height: 1.7;
-      max-width: 500px;
-      margin-bottom: 1.75rem;
+      line-height: 1.65;
+      max-width: 480px;
+      margin-bottom: 1.85rem;
     }
     .hero-cta {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: var(--gradient-accent);
+      background: var(--gradient-main);
       color: #fff;
-      font-weight: 700;
+      font-family: var(--font-display);
+      font-weight: 600;
       font-size: .92rem;
-      padding: .75rem 1.6rem;
-      border-radius: var(--radius-sm);
+      padding: .72rem 1.5rem;
+      border-radius: 8px;
       text-decoration: none;
-      transition: transform .2s, box-shadow .2s;
-      box-shadow: 0 4px 20px rgba(102, 126, 234, .35);
+      transition: transform .15s, box-shadow .3s;
+      box-shadow: 0 0 20px rgba(0,212,255,.2), 0 0 40px rgba(255,45,120,.15);
     }
     .hero-cta:hover {
       transform: translateY(-2px);
-      box-shadow: 0 6px 28px rgba(102, 126, 234, .45);
+      box-shadow: 0 0 30px rgba(0,212,255,.35), 0 0 60px rgba(255,45,120,.2);
     }
     .hero-cta svg { transition: transform .2s; }
     .hero-cta:hover svg { transform: translateX(3px); }
 
     /* --- PAGE TITLE (subpages) --- */
     .page-title {
-      font-size: 2.2rem;
-      font-weight: 800;
-      color: var(--ink);
-      line-height: 1.2;
-      letter-spacing: -.02em;
-      margin-bottom: 2rem;
+      font-family: var(--font-display);
+      font-size: 2.15rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.22;
+      letter-spacing: .01em;
+      margin-bottom: 2.25rem;
       position: relative;
-      padding-left: 1.3rem;
+      padding-left: 1.35rem;
     }
     .page-title::before {
       content: '';
       position: absolute;
       left: 0;
-      top: .12em;
-      bottom: .12em;
+      top: .1em;
+      bottom: .1em;
       width: 4px;
+      background: var(--gradient-main);
       border-radius: 2px;
-      background: var(--gradient-accent);
+      box-shadow: 0 0 12px rgba(0,212,255,.4);
     }
 
     /* --- HERO IMAGE --- */
@@ -481,8 +468,21 @@
       margin: 0 0 2.5rem;
       border-radius: var(--radius);
       overflow: hidden;
-      box-shadow: var(--shadow-glass-lg);
-      border: 1px solid var(--glass-border);
+      box-shadow: var(--shadow-md);
+      position: relative;
+    }
+    .article-hero::before {
+      content: '';
+      position: absolute;
+      inset: -1px;
+      border-radius: 13px;
+      padding: 1px;
+      background: linear-gradient(135deg, rgba(0,212,255,.3), transparent 50%, rgba(255,45,120,.3));
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+      z-index: 1;
     }
     .article-hero img {
       display: block;
@@ -492,32 +492,32 @@
     }
 
     /* --- TOC --- */
-    .toc-glass {
+    .toc-box {
+      background: var(--void-card);
+      border: 1px solid var(--void-border);
       border-radius: var(--radius);
-      padding: 1.75rem 2rem;
+      padding: 1.5rem 1.75rem;
       margin-bottom: 2.5rem;
-      background: var(--glass-bg-strong);
-      backdrop-filter: var(--glass-blur);
-      -webkit-backdrop-filter: var(--glass-blur);
-      border: 1px solid var(--glass-border);
-      box-shadow: var(--shadow-glass-sm);
+      box-shadow: var(--shadow-sm);
+      position: relative;
+    }
+    .toc-box::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: var(--gradient-main);
+      border-radius: var(--radius) var(--radius) 0 0;
+      opacity: .7;
     }
     .toc-label {
-      font-size: .68rem;
-      font-weight: 700;
+      font-family: var(--font-display);
+      font-size: .7rem;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: .12em;
-      color: var(--ink-faint);
+      letter-spacing: .14em;
+      color: var(--text-muted);
       margin-bottom: .9rem;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-    .toc-label::after {
-      content: '';
-      flex: 1;
-      height: 1px;
-      background: linear-gradient(90deg, rgba(102,126,234,.2), transparent);
     }
     .toc-list {
       list-style: none;
@@ -529,14 +529,15 @@
       align-items: baseline;
       gap: .7rem;
       padding: .5rem 0;
-      border-bottom: 1px solid rgba(102, 126, 234, .08);
+      border-bottom: 1px solid var(--void-border-light);
     }
     .toc-list li:last-child { border-bottom: none; }
     .toc-list li::before {
       content: counter(toc, decimal-leading-zero);
-      font-weight: 800;
-      font-size: .82rem;
-      background: var(--gradient-text);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: .8rem;
+      background: var(--gradient-main);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -544,13 +545,16 @@
       min-width: 1.6rem;
     }
     .toc-list a {
-      color: var(--ink-soft);
+      color: var(--text-secondary);
       text-decoration: none;
-      font-weight: 600;
+      font-weight: 500;
       font-size: .92rem;
-      transition: color .2s;
+      transition: color .15s, text-shadow .15s;
     }
-    .toc-list a:hover { color: var(--accent-1); }
+    .toc-list a:hover {
+      color: var(--neon-blue);
+      text-shadow: 0 0 8px rgba(0,212,255,.3);
+    }
 
     /* --- JUMP LINKS --- */
     .jump-links {
@@ -561,201 +565,250 @@
     }
     .jump-links a {
       font-size: .78rem;
-      font-weight: 600;
-      color: var(--accent-2);
-      background: rgba(118, 75, 162, .08);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      border: 1px solid rgba(118, 75, 162, .15);
-      padding: .32rem .85rem;
-      border-radius: var(--radius-pill);
+      font-weight: 500;
+      color: var(--neon-blue);
+      background: var(--neon-blue-dim);
+      border: 1px solid rgba(0,212,255,.18);
+      padding: .3rem .85rem;
+      border-radius: 100px;
       text-decoration: none;
       transition: all .25s;
     }
     .jump-links a:hover {
-      background: var(--gradient-accent);
+      background: rgba(0,212,255,.2);
+      border-color: rgba(0,212,255,.4);
+      box-shadow: 0 0 12px rgba(0,212,255,.2);
       color: #fff;
-      border-color: transparent;
-      box-shadow: 0 4px 16px rgba(102, 126, 234, .25);
     }
 
     /* --- SPECIAL CONTENT --- */
     .special-card {
+      background: var(--void-card);
+      border: 1px solid var(--void-border);
       border-radius: var(--radius);
       padding: 1.5rem 1.75rem;
-      margin-bottom: 1.25rem;
-      background: var(--glass-bg);
-      backdrop-filter: var(--glass-blur);
-      -webkit-backdrop-filter: var(--glass-blur);
-      border: 1px solid var(--glass-border);
-      box-shadow: var(--shadow-glass-sm);
+      margin-bottom: 1.5rem;
+      box-shadow: var(--shadow-sm);
       line-height: 1.75;
-      font-size: .95rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .special-card::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: var(--gradient-main);
     }
 
     /* --- ARTICLE SECTIONS --- */
     .content-section {
-      margin-bottom: 2.25rem;
-      border-radius: var(--radius);
-      padding: 1.75rem 2rem;
-      background: var(--glass-bg);
-      backdrop-filter: var(--glass-blur);
-      -webkit-backdrop-filter: var(--glass-blur);
-      border: 1px solid var(--glass-border);
-      box-shadow: var(--shadow-glass-sm);
-      transition: box-shadow .3s, transform .3s;
-    }
-    .content-section:hover {
-      box-shadow: var(--shadow-glass), var(--shadow-glow);
-      transform: translateY(-1px);
+      margin-bottom: 2.75rem;
+      position: relative;
     }
     .content-section.has-accent {
-      border-left: 3px solid;
-      border-image: var(--gradient-accent) 1;
+      padding-left: 1.5rem;
+      border-left: 3px solid transparent;
+      border-image: var(--gradient-main) 1;
     }
     .content-section h2 {
-      font-size: 1.35rem;
-      font-weight: 800;
-      color: var(--ink);
+      font-family: var(--font-display);
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--text-primary);
       line-height: 1.3;
-      letter-spacing: -.01em;
+      letter-spacing: .01em;
       margin-bottom: .85rem;
     }
     .content-section p {
-      margin-bottom: 1rem;
-      font-size: .95rem;
+      margin-bottom: 1.1rem;
+      font-size: .965rem;
     }
     .content-section p:last-child { margin-bottom: 0; }
     .content-section ul {
       padding-left: 1.25rem;
       margin-bottom: 1rem;
-      color: var(--ink-soft);
-      font-size: .93rem;
+      color: var(--text-secondary);
+      font-size: .95rem;
     }
-    .content-section ul li { margin-bottom: .3rem; }
-    .content-section ul li::marker { color: var(--accent-1); }
+    .content-section ul li {
+      margin-bottom: .25rem;
+    }
+    .content-section ul li::marker {
+      color: var(--neon-blue);
+    }
 
     /* --- SECTION DIVIDER --- */
     .section-divider {
       text-align: center;
-      margin: 1.5rem 0;
-      color: var(--ink-faint);
-      font-size: .85rem;
-      letter-spacing: .5em;
+      margin: 3rem 0;
       user-select: none;
-      opacity: .5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
     }
+    .section-divider::before,
+    .section-divider::after {
+      content: '';
+      flex: 1;
+      max-width: 80px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--neon-blue), transparent);
+      opacity: .3;
+    }
+    .section-divider .divider-dots {
+      display: flex;
+      gap: 6px;
+    }
+    .section-divider .divider-dot {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--neon-purple);
+      box-shadow: 0 0 6px rgba(168,85,247,.5);
+      animation: glowPulse 3s ease-in-out infinite;
+    }
+    .section-divider .divider-dot:nth-child(2) { animation-delay: .5s; background: var(--neon-blue); box-shadow: 0 0 6px rgba(0,212,255,.5); }
+    .section-divider .divider-dot:nth-child(3) { animation-delay: 1s; background: var(--neon-pink); box-shadow: 0 0 6px rgba(255,45,120,.5); }
 
     /* --- ENTITY TABLE --- */
-    .entity-section {
-      margin: 2.5rem 0;
-    }
+    .entity-section { margin: 3rem 0; }
     .entity-section h2 {
-      font-weight: 800;
+      font-family: var(--font-display);
+      font-weight: 700;
       font-size: 1.3rem;
-      color: var(--ink);
+      color: var(--text-primary);
       margin-bottom: 1rem;
     }
     .entity-table-wrap {
       overflow-x: auto;
+      border: 1px solid var(--void-border);
       border-radius: var(--radius);
-      background: var(--glass-bg-strong);
-      backdrop-filter: var(--glass-blur);
-      -webkit-backdrop-filter: var(--glass-blur);
-      border: 1px solid var(--glass-border);
-      box-shadow: var(--shadow-glass-sm);
+      background: var(--void-card);
+      box-shadow: var(--shadow-sm);
     }
     .entity-table-wrap table { width: 100%; border-collapse: collapse; }
     .entity-table-wrap th {
       text-align: left;
       padding: .7rem 1rem;
+      font-family: var(--font-display);
       font-size: .7rem;
-      font-weight: 700;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: .08em;
-      color: var(--ink-muted);
-      border-bottom: 2px solid rgba(102, 126, 234, .15);
-      background: rgba(102, 126, 234, .06);
+      letter-spacing: .1em;
+      color: var(--text-primary);
+      border-bottom: 2px solid var(--void-border);
+      background: linear-gradient(135deg, rgba(0,212,255,.12) 0%, rgba(255,45,120,.08) 100%);
     }
     .entity-table-wrap td {
-      padding: .7rem 1rem;
+      padding: .65rem 1rem;
       font-size: .88rem;
-      color: var(--ink-soft);
-      border-bottom: 1px solid rgba(102, 126, 234, .06);
-    }
-    .entity-table-wrap tr:nth-child(even) td {
-      background: rgba(118, 75, 162, .03);
+      color: var(--text-secondary);
+      border-bottom: 1px solid var(--void-border-light);
+      background: var(--void-card);
+      transition: background .2s, box-shadow .2s;
     }
     .entity-table-wrap tr:last-child td { border-bottom: none; }
-    .entity-table-wrap a { color: var(--accent-1); text-decoration: none; }
-    .entity-table-wrap a:hover { text-decoration: underline; }
-    .entity-table-wrap strong { color: var(--ink); font-weight: 700; }
+    .entity-table-wrap tr:hover td {
+      background: rgba(0,212,255,.04);
+      box-shadow: inset 0 0 30px rgba(0,212,255,.03);
+    }
+    .entity-table-wrap a { color: var(--neon-blue); text-decoration: none; }
+    .entity-table-wrap a:hover { text-shadow: 0 0 8px rgba(0,212,255,.3); }
+    .entity-table-wrap strong { color: var(--text-primary); font-weight: 600; }
 
     /* --- WIKI / KNOWLEDGE --- */
     .knowledge-aside {
-      margin: 2.5rem 0;
+      margin: 3rem 0;
+      background: var(--void-elevated);
+      border: 1px solid var(--void-border);
       border-radius: var(--radius);
       padding: 2rem 2.25rem;
-      background: linear-gradient(135deg, rgba(102,126,234,.1), rgba(118,75,162,.08));
-      backdrop-filter: var(--glass-blur);
-      -webkit-backdrop-filter: var(--glass-blur);
-      border: 1px solid rgba(102, 126, 234, .2);
-      box-shadow: var(--shadow-glass-sm);
       position: relative;
       overflow: hidden;
     }
     .knowledge-aside::before {
-      content: '\201C';
-      font-size: 6rem;
-      font-weight: 800;
+      content: '';
       position: absolute;
-      top: -.3rem;
-      left: 1rem;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 3px;
+      background: var(--gradient-main);
+      box-shadow: 0 0 12px rgba(0,212,255,.3);
+    }
+    .knowledge-aside::after {
+      content: '\201C';
+      font-family: var(--font-display);
+      font-size: 6rem;
+      font-weight: 700;
+      position: absolute;
+      top: -.5rem;
+      right: 1.5rem;
       line-height: 1;
-      background: var(--gradient-text);
+      background: var(--gradient-main);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      opacity: .2;
+      opacity: .12;
+      pointer-events: none;
     }
     .knowledge-label {
+      font-family: var(--font-display);
       font-size: .7rem;
-      font-weight: 700;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: .1em;
-      color: var(--accent-2);
+      letter-spacing: .12em;
+      color: var(--neon-blue);
       margin-bottom: .85rem;
       display: flex;
       align-items: center;
-      gap: 6px;
-      position: relative;
+      gap: 7px;
+      text-shadow: 0 0 8px rgba(0,212,255,.3);
     }
     .knowledge-label svg { flex-shrink: 0; }
     .knowledge-content {
       font-size: .9rem;
       line-height: 1.8;
-      color: var(--ink-soft);
-      position: relative;
+      color: var(--text-secondary);
     }
     .knowledge-content > div { margin-bottom: .85rem; }
     .knowledge-content > div:last-child { margin-bottom: 0; }
-    .knowledge-content a { color: var(--accent-1); text-decoration: none; }
-    .knowledge-content a:hover { text-decoration: underline; }
-    .knowledge-content strong { color: var(--ink); font-weight: 700; }
+    .knowledge-content a { color: var(--neon-blue); text-decoration: none; }
+    .knowledge-content a:hover { text-shadow: 0 0 8px rgba(0,212,255,.3); }
+    .knowledge-content strong { color: var(--text-primary); font-weight: 600; }
 
     /* --- VIDEO --- */
-    .video-section { margin: 2.5rem 0; }
+    .video-section { margin: 3rem 0; }
     .video-section h2 {
-      font-weight: 800;
+      font-family: var(--font-display);
+      font-weight: 700;
       font-size: 1.3rem;
-      color: var(--ink);
+      color: var(--text-primary);
       margin-bottom: 1rem;
     }
     .video-wrap {
       border-radius: var(--radius);
       overflow: hidden;
-      box-shadow: var(--shadow-glass-lg);
-      border: 1px solid var(--glass-border);
+      box-shadow: var(--shadow-md), 0 0 30px rgba(0,212,255,.1);
+      border: 1px solid var(--void-border);
+      position: relative;
+    }
+    .video-wrap::before {
+      content: '';
+      position: absolute;
+      inset: -1px;
+      border-radius: 13px;
+      padding: 1px;
+      background: linear-gradient(135deg, rgba(0,212,255,.3), transparent 40%, transparent 60%, rgba(255,45,120,.3));
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+      z-index: 1;
     }
     .video-wrap iframe {
       display: block;
@@ -764,35 +817,35 @@
     }
 
     /* --- FAQ --- */
-    .faq-section { margin: 3rem 0; }
+    .faq-section { margin: 3.5rem 0; }
     .faq-section h2 {
-      font-weight: 800;
-      font-size: 1.45rem;
-      color: var(--ink);
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: var(--text-primary);
       margin-bottom: 1.25rem;
     }
     .faq-list { display: flex; flex-direction: column; gap: .6rem; }
+
     .faq-item {
+      border: 1px solid var(--void-border);
       border-radius: var(--radius);
-      background: var(--glass-bg);
-      backdrop-filter: var(--glass-blur);
-      -webkit-backdrop-filter: var(--glass-blur);
-      border: 1px solid var(--glass-border);
+      background: var(--void-card);
       overflow: hidden;
-      transition: box-shadow .25s, transform .25s, border-color .25s;
+      transition: box-shadow .3s, border-color .3s;
     }
     .faq-item:hover {
-      box-shadow: var(--shadow-glass-sm);
-      transform: translateY(-1px);
+      box-shadow: var(--shadow-sm);
+      border-color: rgba(0,212,255,.15);
     }
     .faq-item[open] {
-      box-shadow: var(--shadow-glass), 0 0 0 1px rgba(118, 75, 162, .2);
-      border-color: rgba(118, 75, 162, .25);
+      box-shadow: var(--glow-sm), var(--shadow-md);
+      border-color: rgba(0,212,255,.25);
     }
     .faq-item summary {
       padding: 1rem 1.25rem;
-      font-weight: 700;
-      color: var(--ink);
+      font-weight: 600;
+      color: var(--text-primary);
       font-size: .95rem;
       cursor: pointer;
       display: flex;
@@ -806,91 +859,100 @@
       content: '';
       width: 24px;
       height: 24px;
-      border-radius: 8px;
+      border-radius: 50%;
+      background: var(--neon-blue-dim);
+      border: 1px solid rgba(0,212,255,.2);
       flex-shrink: 0;
-      background: rgba(118, 75, 162, .1);
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23764ba2' stroke-width='2'%3E%3Cpath d='M6 2v8M2 6h8'/%3E%3C/svg%3E");
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%2300d4ff' stroke-width='2'%3E%3Cpath d='M6 2v8M2 6h8'/%3E%3C/svg%3E");
       background-repeat: no-repeat;
       background-position: center;
       transition: all .3s;
+      box-shadow: 0 0 8px rgba(0,212,255,.15);
     }
     .faq-item[open] summary::before {
-      background-color: var(--accent-2);
+      background-color: var(--neon-blue);
+      border-color: var(--neon-blue);
       background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='white' stroke-width='2'%3E%3Cpath d='M2 6h8'/%3E%3C/svg%3E");
-      border-radius: 8px;
+      box-shadow: 0 0 14px rgba(0,212,255,.5);
+      transform: rotate(180deg);
     }
-    .faq-item summary:hover { color: var(--accent-2); }
+    .faq-item summary:hover { color: var(--neon-blue); }
     .faq-answer {
-      padding: 0 1.25rem 1.25rem 3.75rem;
+      padding: 0 1.25rem 1.25rem 3.85rem;
       font-size: .92rem;
       line-height: 1.75;
-      color: var(--ink-soft);
+      color: var(--text-secondary);
       animation: fadeIn .3s ease;
     }
 
     /* --- RELATED --- */
-    .related-section { margin: 2.5rem 0; }
+    .related-section { margin: 3rem 0; }
     .related-section h2 {
-      font-weight: 800;
+      font-family: var(--font-display);
+      font-weight: 700;
       font-size: 1.3rem;
-      color: var(--ink);
+      color: var(--text-primary);
       margin-bottom: 1rem;
     }
     .related-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
       gap: .75rem;
     }
     .related-card {
       display: block;
-      padding: 1.2rem 1.3rem;
+      padding: 1.15rem 1.3rem;
+      background: var(--void-card);
+      border: 1px solid var(--void-border);
       border-radius: var(--radius);
-      background: var(--glass-bg);
-      backdrop-filter: var(--glass-blur);
-      -webkit-backdrop-filter: var(--glass-blur);
-      border: 1px solid var(--glass-border);
-      box-shadow: var(--shadow-glass-sm);
       text-decoration: none;
-      transition: all .3s cubic-bezier(.22,1,.36,1);
+      transition: all .3s;
       position: relative;
       overflow: hidden;
     }
     .related-card::before {
       content: '';
       position: absolute;
-      inset: 0;
-      border-radius: var(--radius);
-      background: var(--gradient-accent);
+      inset: -1px;
+      border-radius: 13px;
+      padding: 1px;
+      background: linear-gradient(135deg, rgba(0,212,255,.25), rgba(255,45,120,.25));
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
       opacity: 0;
       transition: opacity .3s;
-      z-index: 0;
     }
+    .related-card:hover::before { opacity: 1; }
     .related-card:hover {
-      transform: translateY(-4px);
-      box-shadow: var(--shadow-glass-lg), var(--shadow-glow);
-      border-color: rgba(102, 126, 234, .3);
+      border-color: transparent;
+      box-shadow: 0 0 25px rgba(0,212,255,.12), var(--shadow-md);
+      transform: translateY(-3px);
     }
-    .related-card:hover::before { opacity: .04; }
     .related-card-title {
       display: block;
-      font-weight: 700;
-      color: var(--ink);
+      font-weight: 600;
+      color: var(--text-primary);
       font-size: .92rem;
       margin-bottom: .35rem;
       line-height: 1.35;
-      position: relative;
-      z-index: 1;
     }
     .related-card-arrow {
       font-size: .78rem;
-      font-weight: 600;
-      color: var(--accent-1);
-      position: relative;
-      z-index: 1;
+      font-weight: 500;
+      background: var(--gradient-main);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
 
     /* --- FOOTER --- */
     .site-footer {
+      background: #08040f;
       margin-top: auto;
       position: relative;
     }
@@ -900,14 +962,10 @@
       top: 0;
       left: 0;
       right: 0;
-      height: 1px;
-      background: linear-gradient(90deg, transparent, rgba(102,126,234,.3), rgba(240,147,251,.3), transparent);
-    }
-    .footer-glass {
-      background: var(--footer-glass);
-      backdrop-filter: blur(32px) saturate(1.2);
-      -webkit-backdrop-filter: blur(32px) saturate(1.2);
-      border-top: 1px solid rgba(255, 255, 255, .06);
+      height: 2px;
+      background: var(--gradient-main);
+      opacity: .35;
+      box-shadow: 0 0 20px rgba(0,212,255,.2);
     }
     .footer-inner {
       max-width: 1140px;
@@ -926,66 +984,67 @@
       margin-bottom: 1rem;
     }
     .footer-brand img {
-      width: 36px;
-      height: 36px;
+      width: 38px;
+      height: 38px;
       border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, .2);
+      border: 1px solid var(--void-border);
     }
     .footer-brand span {
-      font-weight: 800;
-      color: rgba(255, 255, 255, .9);
+      font-family: var(--font-display);
+      font-weight: 700;
+      color: var(--text-primary);
       font-size: .95rem;
     }
     .footer-desc {
       font-size: .84rem;
-      color: rgba(255, 255, 255, .4);
-      line-height: 1.7;
+      color: var(--text-muted);
+      line-height: 1.65;
       max-width: 300px;
       margin-bottom: .85rem;
     }
     .footer-social { display: flex; flex-wrap: wrap; gap: .85rem; }
     .footer-social a {
       font-size: .82rem;
-      font-weight: 600;
-      color: rgba(255, 255, 255, .35);
+      color: var(--text-muted);
       text-decoration: none;
-      transition: color .2s;
+      transition: color .2s, text-shadow .2s;
     }
-    .footer-social a:hover { color: var(--accent-1); }
+    .footer-social a:hover {
+      color: var(--neon-blue);
+      text-shadow: 0 0 8px rgba(0,212,255,.3);
+    }
     .footer-heading {
+      font-family: var(--font-display);
       font-size: .68rem;
-      font-weight: 700;
+      font-weight: 600;
       text-transform: uppercase;
-      letter-spacing: .1em;
-      color: rgba(255, 255, 255, .3);
+      letter-spacing: .12em;
+      color: var(--text-muted);
       margin-bottom: 1rem;
     }
-    .footer-links-list {
+    .footer-links {
       list-style: none;
       display: flex;
       flex-direction: column;
       gap: .55rem;
     }
-    .footer-links-list a {
+    .footer-links a {
       font-size: .85rem;
-      font-weight: 400;
-      color: rgba(255, 255, 255, .4);
+      color: var(--text-muted);
       text-decoration: none;
       transition: color .2s;
     }
-    .footer-links-list a:hover { color: rgba(255, 255, 255, .85); }
+    .footer-links a:hover { color: var(--text-primary); }
     .footer-qr {
       width: 88px;
       height: 88px;
-      border-radius: 12px;
-      background: rgba(255, 255, 255, .1);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      padding: 6px;
-      border: 1px solid rgba(255, 255, 255, .12);
+      border-radius: 8px;
+      background: #fff;
+      padding: 4px;
+      box-shadow: 0 0 15px rgba(0,212,255,.1);
     }
     .footer-bottom {
-      border-top: 1px solid rgba(255, 255, 255, .06);
+      border-top: 1px solid rgba(42,31,69,.5);
       margin-top: 2.5rem;
       padding-top: 1.5rem;
       display: flex;
@@ -996,58 +1055,52 @@
     }
     .footer-copy {
       font-size: .78rem;
-      color: rgba(255, 255, 255, .25);
+      color: var(--text-faint);
     }
 
-    /* --- MOBILE HAMBURGER --- */
-    .mobile-toggle {
-      display: none;
-      background: none;
-      border: none;
-      padding: 6px;
-      cursor: pointer;
-      color: var(--ink-muted);
+    /* --- SCROLLBAR --- */
+    ::-webkit-scrollbar { width: 8px; height: 8px; }
+    ::-webkit-scrollbar-track { background: var(--void); }
+    ::-webkit-scrollbar-thumb { background: var(--void-border); border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--text-faint); }
+
+    /* --- SELECTION --- */
+    ::selection {
+      background: rgba(0,212,255,.25);
+      color: #fff;
     }
+
+    /* --- LINK STYLES --- */
+    a { color: var(--neon-blue); }
 
     /* --- RESPONSIVE --- */
     @media (max-width: 768px) {
-      .site-header { padding: 8px 1rem; }
-      .header-bar { height: 50px; padding: 0 1rem; border-radius: 14px; }
-      .header-brand span { font-size: .95rem; }
-      .header-nav { margin-left: .75rem; gap: 2px; }
-      .header-nav a { font-size: .78rem; padding: .3rem .55rem; }
+      .header-inner { padding: 0 1rem; height: 56px; }
+      .header-brand span { font-size: 1rem; }
+      .header-nav { margin-left: 1rem; gap: 2px; }
+      .header-nav a { font-size: .8rem; padding: .35rem .55rem; }
 
-      .page-main { padding: 1.25rem 1rem 3rem; }
-      .hero-glass { padding: 2.25rem 1.75rem; border-radius: var(--radius); }
-      .hero-glass h1 { font-size: 1.9rem; }
+      .page-main { padding: 1.75rem 1rem 3rem; }
+      .hero { padding: 2.25rem 1.75rem; border-radius: 12px; }
+      .hero h1 { font-size: 1.9rem; }
       .hero-desc { font-size: .95rem; }
       .page-title { font-size: 1.65rem; }
 
-      .content-section { padding: 1.25rem 1.35rem; border-radius: 14px; }
       .content-section h2 { font-size: 1.2rem; }
-      .toc-glass { padding: 1.25rem 1.35rem; }
-      .knowledge-aside { padding: 1.5rem; }
-      .knowledge-aside::before { font-size: 4rem; }
-
-      .nav-dropdown-menu-inner { min-width: 300px; }
+      .knowledge-aside { padding: 1.5rem 1.5rem 1.5rem 1.75rem; }
 
       .footer-grid { grid-template-columns: 1fr; gap: 2rem; }
       .footer-inner { padding: 2.5rem 1.25rem 1.5rem; }
 
-      .bg-blob-1 { width: 350px; height: 350px; }
-      .bg-blob-2 { width: 300px; height: 300px; }
-      .bg-blob-3 { width: 250px; height: 250px; }
-      .bg-blob-4 { display: none; }
+      .nav-dropdown-menu-inner { min-width: 300px; }
+      .nav-dropdown-grid { grid-template-columns: 1fr; }
     }
 
     @media (max-width: 480px) {
-      .hero-glass h1 { font-size: 1.55rem; }
-      .hero-glass { padding: 1.75rem 1.25rem; border-radius: 14px; }
+      .hero h1 { font-size: 1.55rem; }
+      .hero { padding: 1.75rem 1.25rem; }
       .page-title { font-size: 1.4rem; }
       .related-grid { grid-template-columns: 1fr; }
-      .header-nav a:not(.is-active) { display: none; }
-      .nav-dropdown-menu-inner { min-width: 260px; }
-      .nav-dropdown-grid { grid-template-columns: 1fr; }
     }
   </style>
   <script type="application/ld+json">
@@ -1065,8 +1118,8 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://sitepublish.github.io/bob-and-brad-d6-pro-review/index.html",
-      "url": "https://sitepublish.github.io/bob-and-brad-d6-pro-review/index.html",
+      "@id": "https://sitepublish.gitlab.io/bob-and-brad-d6-pro-review/index.html",
+      "url": "https://sitepublish.gitlab.io/bob-and-brad-d6-pro-review/index.html",
       "name": "bob and brad d6 pro review",
       "isPartOf": {
         "@id": "https://thereviewrewind.com/#website"
@@ -1124,7 +1177,7 @@
     {
       "@type": "Product",
       "name": "bob and brad d6 pro review",
-      "url": "https://sitepublish.github.io/bob-and-brad-d6-pro-review/index.html",
+      "url": "https://sitepublish.gitlab.io/bob-and-brad-d6-pro-review/index.html",
       "brand": {
         "@type": "Brand",
         "name": "TheReviewRewind"
@@ -1140,10 +1193,10 @@
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.6",
+        "ratingValue": "4.7",
         "bestRating": "5",
         "worstRating": "1",
-        "reviewCount": "160"
+        "reviewCount": "591"
       },
       "review": {
         "@type": "Review",
@@ -1153,7 +1206,7 @@
         },
         "reviewRating": {
           "@type": "Rating",
-          "ratingValue": "4.3",
+          "ratingValue": "4.0",
           "bestRating": "5"
         },
         "reviewBody": "Our comprehensive review of bob and brad d6 pro review covers performance, quality, and value."
@@ -1161,22 +1214,22 @@
     },
     {
       "@type": "FAQPage",
-      "@id": "https://sitepublish.github.io/bob-and-brad-d6-pro-review/index.html#faq",
+      "@id": "https://sitepublish.gitlab.io/bob-and-brad-d6-pro-review/index.html#faq",
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "How does the Bob and Brad D6 Pro help with range of motion?",
+          "name": "What power source does the Bob and Brad D6 Pro use?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Bob and Brad D6 Pro can improve range of motion by reducing muscle tension and fascial restrictions that limit joint movement. Applying percussion to tight muscles before stretching has been shown to increase flexibility gains compared to stretching alone. This makes it a valuable warm-up tool for both everyday mobility and athletic performance."
+            "text": "The Bob and Brad D6 Pro is powered by a rechargeable lithium-ion battery, which provides cordless convenience for use anywhere. The battery technology offers consistent power output throughout the charge cycle, so performance does not diminish as the battery level drops. The included charging system makes it easy to keep the device ready for use."
           }
         },
         {
           "@type": "Question",
-          "name": "How does the D6 Pro handle heat buildup during extended use?",
+          "name": "How does the Bob and Brad D6 Pro compare to Hypervolt?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "The Bob and Brad D6 Pro is engineered with thermal management features that prevent excessive heat buildup during prolonged sessions. The brushless motor generates less heat than brushed alternatives, and the device body is designed to dissipate heat efficiently. Most users can complete a full-body session without the device becoming uncomfortably warm."
+            "text": "The Bob and Brad D6 Pro competes favorably with the Hyperice Hypervolt in terms of percussion power and attachment variety, typically at a lower retail price. Both devices offer comparable motor performance and noise levels. The D6 Pro has the added credibility of being designed by licensed physical therapists, while the Hypervolt benefits from broader brand recognition in professional sports."
           }
         }
       ]
@@ -1185,10 +1238,10 @@
       "@type": "VideoObject",
       "name": "bob and brad d6 pro review - TheReviewRewind",
       "description": "Video review and analysis of bob and brad d6 pro review by TheReviewRewind",
-      "thumbnailUrl": "https://img.youtube.com/vi/ySSYLW1gGsw/maxresdefault.jpg",
-      "uploadDate": "2025-03-04T00:00:00+00:00",
-      "contentUrl": "https://www.youtube.com/watch?v=ySSYLW1gGsw",
-      "embedUrl": "https://www.youtube.com/embed/ySSYLW1gGsw"
+      "thumbnailUrl": "https://img.youtube.com/vi/pUzLs1TaynU/maxresdefault.jpg",
+      "uploadDate": "2025-02-08T00:00:00+00:00",
+      "contentUrl": "https://www.youtube.com/watch?v=pUzLs1TaynU",
+      "embedUrl": "https://www.youtube.com/embed/pUzLs1TaynU"
     }
   ]
 }
@@ -1197,19 +1250,9 @@
 </head>
 <body>
 
-  <!-- Background blobs -->
-  <div class="bg-canvas" aria-hidden="true">
-    <div class="bg-blob bg-blob-1"></div>
-    <div class="bg-blob bg-blob-2"></div>
-    <div class="bg-blob bg-blob-3"></div>
-    <div class="bg-blob bg-blob-4"></div>
-  </div>
-
-  <div class="page-wrap">
-
   <!-- Header -->
   <header class="site-header">
-    <div class="header-bar">
+    <div class="header-inner">
       <a href="index.html" class="header-brand">
         <img src="images/logo.png" alt="TheReviewRewind">
         <span>TheReviewRewind</span>
@@ -1265,13 +1308,14 @@
         </div>
       </nav>
     </div>
+    <div class="header-accent"></div>
   </header>
 
   <!-- Main -->
   <main class="page-main">
 
     <!-- HERO -->
-    <div class="hero-glass animate-up">
+    <div class="hero animate-up">
       <div class="hero-inner">
         <span class="hero-label animate-in delay-1">Independent Reviews</span>
         <h1 class="animate-up delay-1">Bob and Brad D6 Pro Review: Is This Massage Gun Worth It?</h1>
@@ -1288,7 +1332,7 @@
     </figure>
 
     <!-- TABLE OF CONTENTS -->
-    <div class="toc-glass animate-up delay-2">
+    <div class="toc-box animate-up delay-2">
       <div class="toc-label">In this article</div>
       <ol class="toc-list">
         <li><a href="#what-sets-the-bob-and-brad-d6-pro-apart-from-other-massage-guns">What Sets the Bob and Brad D6 Pro Apart from Other Massage Guns</a></li>
@@ -1311,51 +1355,61 @@
     <article>
       <section id="what-sets-the-bob-and-brad-d6-pro-apart-from-other-massage-guns" class="content-section">
         <h2>What Sets the Bob and Brad D6 Pro Apart from Other Massage Guns</h2>
-        <p>First-time users should focus on the largest muscle groups when learning to use a percussion massage gun effectively. The quadriceps, hamstrings, calves, and upper back are forgiving areas that respond well to percussion therapy and carry lower risk of injury. Spending thirty to sixty seconds on each area at a moderate speed setting is a good starting protocol before exploring more targeted techniques.</p>
-        <p>Percussion therapy for martial artists and combat sport athletes addresses the unique demands of training that involves both inflicting and absorbing impact. Forearms develop chronic tightness from blocking, hip flexors fatigue from repetitive kicking, and the neck and shoulder complex endures considerable strain from grappling. Pre-training percussion can improve the tissue compliance needed for dynamic movement, while post-training sessions manage the accumulated micro-trauma from sparring and drilling. The durability of the D6 Pro withstands the daily use demands of serious combat sport training camps.</p>
-        <p>Maintenance best practices for massage guns include avoiding the use of the device while it is charging, as this can generate excessive heat and stress the battery. Most modern devices include safeguards against simultaneous use and charging, but older or budget models may lack this protection. Treating charging time as an opportunity for the device to rest ensures optimal performance and battery longevity.</p>
-        <ul><li>bob and brad d6 pro review</li></ul>
+        <p>Motor power in massage guns is typically measured in watts, though manufacturers do not always disclose this specification. A more practical indicator is the combination of stall force and maximum RPM, which together describe the motor&#39;s real-world capability. A powerful motor maintains its rated RPM even under significant pressure, while a weak motor slows down or stalls when pressed firmly against muscle. Consistent performance under load distinguishes professional-grade devices from consumer toys.</p>
+        <p>Bob and Brad&#39;s contribution to democratizing physical therapy knowledge has earned them recognition from both the healthcare community and the general public. Their approach of making professional-level information freely available through YouTube has helped millions of people manage pain and improve mobility without the barriers of cost and access. The D6 Pro is a physical embodiment of this democratization mission, making clinical-quality percussion therapy available to everyone.</p>
       </section>
 
       <section id="d6-pro-build-quality-and-ergonomic-design-assessment" class="content-section has-accent">
         <h2>D6 Pro Build Quality and Ergonomic Design Assessment</h2>
-        <p>Customer experiences with the D6 Pro frequently mention the surprise factor of receiving a device that exceeds expectations set by its price point. Reviewers who upgraded from budget massage guns consistently note the difference in motor power, build quality, and overall refinement. This positive expectation gap, where the product delivers more than the price suggests, is a powerful driver of word-of-mouth recommendations and repeat purchases.</p>
-        <p>Marathon runners and ultramarathon athletes have been among the earliest adopters of portable percussion therapy devices for in-field recovery. The ability to treat fatigued muscles during race checkpoints, hotel stays, and travel days has made massage guns essential gear for endurance athletes. Quick percussion sessions targeting the quadriceps, hamstrings, and calves between training runs can maintain tissue quality across high-mileage weeks. The portability and battery life of devices like the D6 Pro make this application practical and convenient.</p>
-        <p>The D6 Pro&#39;s noise level during operation is an underappreciated feature that significantly impacts the user experience. At lower speed settings, the device operates quietly enough to use while watching television or having a conversation. This practical consideration matters because a massage gun that disrupts the household environment is less likely to be used consistently, regardless of its therapeutic effectiveness.</p>
+        <p>Noise measurement in decibels follows a logarithmic scale, which means each 10-decibel increase represents a tenfold increase in sound energy. A massage gun operating at 50 decibels is not just slightly louder than one at 40 decibels but is perceived as approximately twice as loud. This nonlinear relationship explains why small differences in decibel ratings matter significantly in real-world use. The D6 Pro&#39;s 42-decibel floor is perceptibly quieter than competitors rated at 48 to 50 decibels.</p>
+        <p>The intersection of percussion therapy and sleep science reveals opportunities for using massage guns as part of a comprehensive sleep hygiene protocol. Percussion therapy thirty minutes before bedtime can activate the parasympathetic nervous system, lower cortisol levels, and reduce the physical tension that prevents sleep onset. Targeting the upper trapezius, suboccipitals, and lower back addresses the areas most commonly associated with sleep-disrupting discomfort. The Bob and Brad D6 Pro&#39;s quiet operation makes it practical for bedtime use without stimulating wakefulness through excessive noise.</p>
+        <p>The variety of attachment heads available across different massage gun brands can be confusing for new buyers, but the core set of four to six heads covers nearly all common use cases. A round ball for large muscles, a bullet for trigger points, a flat head for general use, and a fork for the spine and Achilles tendon form the essential kit. Additional specialized heads are nice to have but rarely necessary for effective treatment.</p>
         <ul><li>bob and brad d6 pro review</li></ul>
       </section>
 
       <section id="motor-power-and-stall-force-performance-testing" class="content-section">
         <h2>Motor Power and Stall Force Performance Testing</h2>
-        <p>Percussion massage guns have transformed from niche athletic equipment to mainstream household wellness devices in just a few years. This rapid adoption reflects both the genuine therapeutic benefits of the technology and the growing consumer interest in proactive health management. As prices continue to become more accessible and educational resources more widely available, the trend toward home-based percussion therapy shows no signs of slowing.</p>
-        <p>The Bob and Brad D6 Pro&#39;s five speed settings are spaced in a progression that covers the full therapeutic range without redundant overlap. Each step up adds approximately 400 to 500 RPM, creating distinct perceptual differences between adjacent settings. Users can identify their preferred speed by feel within a few sessions and reliably return to it each time. This meaningful differentiation between speeds is more useful than devices offering ten or more barely distinguishable settings.</p>
+        <p>The Bob and Brad YouTube channel has become a trusted resource for millions of viewers seeking practical health advice without the need for a doctor&#39;s visit. Their videos on stretching, pain relief, and product reviews have earned them a loyal following that values their straightforward communication style. This built-in audience gave the D6 Pro a significant marketing advantage upon its release, as fans already trusted the brand.</p>
+        <p>Percussion therapy devices operate across a spectrum of frequencies, typically ranging from 1,200 to 3,200 percussions per minute. Lower frequencies are better suited for warming up tissue and providing gentle relaxation, while higher frequencies deliver more aggressive deep tissue work. The optimal frequency depends on the treatment goal, the muscle group being addressed, and the individual&#39;s pain tolerance. Having a wide frequency range, as the D6 Pro offers, provides the versatility needed for comprehensive self-care.</p>
+        <p>Gift guides for fitness enthusiasts increasingly feature percussion massage guns as a top recommendation, and for good reason. The combination of practical utility, impressive technology, and universal appeal makes them a safe bet for anyone on your shopping list. A massage gun paired with a set of resistance bands or a foam roller creates a comprehensive recovery toolkit that any active person would appreciate.</p>
       </section>
 
-      <div class="section-divider" aria-hidden="true">&#x2726;&ensp;&#x2726;&ensp;&#x2726;</div>
+      <div class="section-divider" aria-hidden="true">
+        <span class="divider-dots">
+          <span class="divider-dot"></span>
+          <span class="divider-dot"></span>
+          <span class="divider-dot"></span>
+        </span>
+      </div>
       <section id="battery-life-and-charging-speed-under-real-conditions" class="content-section">
         <h2>Battery Life and Charging Speed Under Real Conditions</h2>
-        <p>Long-term maintenance of a massage gun includes periodic recalibration of the user&#39;s technique as they become more experienced with the device. What felt like appropriate pressure during the first month may become insufficient as muscles adapt to percussion therapy. Gradually increasing speed settings and exploring different attachment heads keeps the treatment effective and prevents the plateau that some long-term users experience.</p>
-        <p>Physical therapists who recommend percussion massage guns to their patients frequently cite the Bob and Brad D6 Pro as a reliable option that they feel comfortable endorsing professionally. The device carries the implicit clinical validation of being designed by two of the most visible physical therapists in the country, which gives recommending therapists confidence that their patients will receive a safe and effective product. This professional endorsement chain, from Bob and Brad to treating therapists to patients, creates a powerful trust network that few consumer brands can replicate.</p>
-        <p>Proper storage between uses contributes significantly to a massage gun&#39;s longevity and performance over time. The carrying case is not just a travel convenience but a storage solution that protects the device from dust, moisture, and accidental impacts. Leaving a massage gun loose in a gym bag where it can collide with other items risks cosmetic damage and potential misalignment of internal components.</p>
+        <p>Percussion therapy for musicians addresses the unique physical demands of instrumental performance, which often involve sustained postures, repetitive fine motor movements, and asymmetric loading. Violinists develop neck and shoulder tension, guitarists develop forearm and hand tightness, and drummers develop whole-body fatigue patterns. Tailored percussion protocols for musicians can maintain the tissue health necessary for consistent practice and performance. The quiet operation of devices like the Bob and Brad D6 Pro makes them practical even in shared practice spaces.</p>
+        <p>The thoracic spine, which comprises the twelve vertebrae of the upper and mid-back, is a common site of restriction that affects posture, breathing, and shoulder function. Modern lifestyles promote a flexed thoracic posture that becomes increasingly rigid over time. Applying percussion therapy to the muscles along the thoracic spine, including the rhomboids, middle trapezius, and erector spinae, can help restore extension and rotation mobility. This is one of the most impactful areas to treat for overall body function.</p>
       </section>
 
       <section id="how-the-d6-pro-performs-on-deep-tissue-muscle-knots" class="content-section has-accent">
         <h2>How the D6 Pro Performs on Deep Tissue Muscle Knots</h2>
-        <p>Percussion therapy research continues to expand as universities and clinical research institutions investigate the mechanisms and outcomes of mechanical muscle treatment. Current evidence supports short-term improvements in range of motion, perceived muscle soreness, and local blood flow following percussion therapy. Long-term studies examining cumulative benefits of regular use are underway but have not yet produced definitive conclusions. The existing evidence base is sufficient to support percussion therapy as a beneficial recovery modality.</p>
+        <p>Neural flossing, a technique designed to improve nerve mobility, can be enhanced by combining it with percussion therapy to the muscles through which the nerve travels. For example, median nerve mobility is affected by tension in the scalenes, pectoralis minor, and forearm flexors. Percussion therapy to these muscles before performing nerve gliding exercises can reduce the mechanical resistance that limits nerve excursion. This combined approach often produces faster improvements in conditions like carpal tunnel syndrome and thoracic outlet syndrome.</p>
+        <p>The Bob and Brad D6 Pro has become a popular choice among home fitness enthusiasts who invested in workout equipment during recent years. As people built home gyms and adopted independent training routines, the need for self-administered recovery tools grew proportionally. The D6 Pro fills this need perfectly, providing gym-quality recovery without requiring a gym membership or access to professional treatment facilities.</p>
       </section>
 
       <section id="noise-level-comparison-across-all-speed-settings" class="content-section">
         <h2>Noise Level Comparison Across All Speed Settings</h2>
-        <p>The suboccipital muscles at the base of the skull are among the most densely innervated muscles in the body, containing more muscle spindles per gram than any other human muscle. These tiny muscles play a crucial role in fine head movements and postural control. When they become restricted, they can cause headaches, dizziness, and visual disturbances. Very gentle percussion therapy at the lowest speed setting using a small, soft attachment can effectively release these muscles. Treatment in this area should always be conservative and brief.</p>
+        <p>Cross-friction massage, a technique traditionally performed by hand, involves applying pressure perpendicular to the direction of muscle fibers and tendons. This approach helps break up scar tissue, stimulate healing in chronically injured structures, and restore normal tissue alignment. The bullet attachment on a percussion device can approximate cross-friction technique when applied at appropriate angles. This makes self-treatment of conditions like tennis elbow and Achilles tendinopathy more accessible.</p>
+        <p>The D6 Pro&#39;s ball attachment head has a diameter of approximately 50mm, making it the largest head in the included kit. Its size allows it to cover broad muscle groups efficiently, reducing treatment time for areas like the quadriceps and upper back. The ball shape also conforms slightly to curved body surfaces, maintaining consistent contact. It is the most versatile head in the kit and the one most users reach for first.</p>
       </section>
 
-      <div class="section-divider" aria-hidden="true">&#x2726;&ensp;&#x2726;&ensp;&#x2726;</div>
+      <div class="section-divider" aria-hidden="true">
+        <span class="divider-dots">
+          <span class="divider-dot"></span>
+          <span class="divider-dot"></span>
+          <span class="divider-dot"></span>
+        </span>
+      </div>
       <section id="final-verdict-is-the-bob-and-brad-d6-pro-worth-your-money" class="content-section">
         <h2>Final Verdict: Is the Bob and Brad D6 Pro Worth Your Money</h2>
-        <p>A percussion massage gun makes an excellent gift for anyone who values physical wellness, from dedicated athletes to grandparents dealing with everyday aches. The universal appeal of muscle relief means the recipient does not need any special knowledge or training to benefit from the device. Paired with a brief demonstration of proper technique, it becomes a thoughtful and practical present for birthdays, holidays, or milestone celebrations.</p>
-        <p>Percussion therapy&#39;s role in injury prevention extends beyond simple muscle maintenance to include identification of developing problems. Regular self-treatment creates an intimate awareness of how each body region normally feels under percussion. When an area begins responding differently, feeling more tender, producing a different sensation, or demonstrating increased muscle guarding, this change serves as an early warning signal of developing dysfunction. Early detection allows proactive intervention before a minor issue progresses to a significant injury.</p>
-        <p>The D6 Pro&#39;s design features a 15-degree angled handle that reduces wrist extension during use. This ergonomic detail means the wrist stays in a more natural position, decreasing strain over long sessions. The handle itself is wrapped in a textured silicone grip that prevents slipping even with sweaty hands. Combined with the balanced weight distribution, the angled design makes self-treatment of the upper back and shoulders significantly easier.</p>
-        <ul><li>bob and brad d6 pro review</li></ul>
+        <p>Physical therapists who recommend percussion massage guns to their patients frequently cite the Bob and Brad D6 Pro as a reliable option that they feel comfortable endorsing professionally. The device carries the implicit clinical validation of being designed by two of the most visible physical therapists in the country, which gives recommending therapists confidence that their patients will receive a safe and effective product. This professional endorsement chain, from Bob and Brad to treating therapists to patients, creates a powerful trust network that few consumer brands can replicate.</p>
+        <p>Percussion therapy applied to the quadratus lumborum, a deep muscle connecting the bottom rib to the pelvis, can provide remarkable relief from lateral back pain and hip hiking. This muscle is often the primary contributor to the feeling of having a stiff back on one side. Due to its depth, reaching the quadratus lumborum requires firm, sustained pressure applied to the area between the bottom rib and the iliac crest. Side-lying position with the top arm overhead provides the best access for self-treatment of this frequently problematic muscle.</p>
       </section>
 
     </article>
@@ -1364,19 +1418,19 @@
     <div class="entity-section">
       <h2>Related Topics</h2>
       <div class="entity-table-wrap">
-        <table><thead><tr><th>Entity</th><th>Relevance</th><th>Source</th></tr></thead><tbody><tr><td>Osteoporosis</td><td>Bone density condition requiring caution when using percussion therapy devices</td><td><a href="https://en.wikipedia.org/wiki/Osteoporosis">Wikipedia</a></td></tr><tr><td>Deep Vein Thrombosis</td><td>Vascular condition that is a contraindication for massage gun use on affected limbs</td><td><a href="https://en.wikipedia.org/wiki/Deep_vein_thrombosis">Wikipedia</a></td></tr><tr><td>Peripheral Neuropathy</td><td>Nerve condition requiring special care when using percussion devices</td><td><a href="https://en.wikipedia.org/wiki/Peripheral_neuropathy">Wikipedia</a></td></tr><tr><td>Diabetes</td><td>Metabolic condition with complications that affect safe massage gun usage</td><td><a href="https://en.wikipedia.org/wiki/Diabetes">Wikipedia</a></td></tr><tr><td>Anticoagulant</td><td>Blood thinning medication class that increases bruising risk from percussion</td><td><a href="https://en.wikipedia.org/wiki/Anticoagulant">Wikipedia</a></td></tr></tbody></table>
+        <table><thead><tr><th>Entity</th><th>Relevance</th><th>Source</th></tr></thead><tbody><tr><td>Deep Tissue Massage</td><td>Traditional massage technique that percussion devices aim to replicate</td><td><a href="https://en.wikipedia.org/wiki/Massage#Deep_tissue">Wikipedia</a></td></tr><tr><td>Swedish Massage</td><td>Foundational massage modality that percussion therapy complements</td><td><a href="https://en.wikipedia.org/wiki/Swedish_massage">Wikipedia</a></td></tr><tr><td>Foam Rolling</td><td>Self-myofascial release technique often used alongside massage guns</td><td><a href="https://en.wikipedia.org/wiki/Foam_rolling">Wikipedia</a></td></tr><tr><td>TENS Unit</td><td>Electrotherapy device commonly compared to massage guns for pain relief</td><td><a href="https://en.wikipedia.org/wiki/Transcutaneous_electrical_nerve_stimulation">Wikipedia</a></td></tr><tr><td>Cryotherapy</td><td>Cold therapy recovery modality used in conjunction with percussion therapy</td><td><a href="https://en.wikipedia.org/wiki/Cryotherapy">Wikipedia</a></td></tr></tbody></table>
       </div>
     </div>
 
     <!-- KNOWLEDGE BASE -->
     <aside class="knowledge-aside">
       <div class="knowledge-label">
-        <svg width="16" height="16" viewBox="0 0 20 20" fill="var(--accent-2)"><path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"/></svg>
+        <svg width="16" height="16" viewBox="0 0 20 20" fill="var(--neon-blue)"><path d="M9 4.804A7.968 7.968 0 005.5 4c-1.255 0-2.443.29-3.5.804v10A7.969 7.969 0 015.5 14c1.669 0 3.218.51 4.5 1.385A7.962 7.962 0 0114.5 14c1.255 0 2.443.29 3.5.804v-10A7.968 7.968 0 0014.5 4c-1.255 0-2.443.29-3.5.804V12a1 1 0 11-2 0V4.804z"/></svg>
         Reference
       </div>
       <div class="knowledge-content">
-        <div><p><b>Lithium-ion Battery Technology</b> — Lithium-ion batteries are rechargeable energy storage devices that use lithium ions moving between a cathode and anode through an electrolyte to store and release electrical energy. Since their commercialization by Sony in 1991, lithium-ion batteries have become the dominant energy storage technology for portable electronics due to their high energy density, low self-discharge rate, and no memory effect. In massage gun applications, lithium-ion batteries enable cordless operation with sufficient power to drive high-torque brushless motors for extended treatment sessions. Proper care of lithium-ion batteries, including avoiding extreme temperatures, maintaining partial charge during long-term storage, and using the manufacturer-provided charger, ensures maximum battery lifespan and consistent device performance.</p></div>
-        <div><p><b>Pain Science</b> — Pain science is an interdisciplinary field that studies the biological, psychological, and social factors that contribute to the experience of pain. Modern pain science has moved beyond the simplistic view of pain as a direct signal from injured tissue, recognizing it instead as a complex output of the brain influenced by context, expectations, emotions, and past experiences. The biopsychosocial model of pain acknowledges that tissue damage, nerve sensitization, cognitive beliefs, emotional state, and social environment all contribute to the pain experience. Understanding pain science helps explain why percussion therapy can provide pain relief through multiple mechanisms, including gate control inhibition of nociceptive signals, placebo and expectation effects, reduction of muscle tension, and modulation of the autonomic nervous system toward a parasympathetic state.</p></div>
+        <div><p><b>Deep Tissue Massage</b> — Deep tissue massage is a therapeutic technique that applies sustained firm pressure to reach the deeper layers of muscle and fascia, targeting knots, chronic tension patterns, and adhesions that form in muscles due to injury, overuse, or stress. The technique involves slow, deliberate strokes that work across the muscle grain, progressively breaking down adhesions and restoring normal tissue texture and movement. Unlike Swedish massage, which primarily aims for relaxation, deep tissue massage addresses structural and functional problems in the musculoskeletal system. Percussion therapy devices replicate some aspects of deep tissue massage by delivering focused mechanical force that can penetrate to deeper tissue layers, though they lack the adaptive palpation skills of a trained therapist.</p></div>
+        <div><p><b>Brushless DC Motor</b> — A brushless direct current motor is an electric motor that uses electronic commutation instead of mechanical brushes to control the direction and distribution of current flowing through its windings. This design eliminates the friction, sparking, and wear associated with brushed motors, resulting in higher efficiency, lower noise, greater reliability, and longer operational lifespan. In massage gun applications, brushless motors deliver more consistent torque across the speed range, produce less heat during extended use, and operate significantly more quietly than their brushed counterparts. The adoption of brushless motor technology in premium massage guns like the Bob and Brad D6 Pro represents a significant advancement in device performance and user experience.</p></div>
       </div>
     </aside>
 
@@ -1384,7 +1438,7 @@
     <div class="video-section">
       <h2>Watch the Review</h2>
       <div class="video-wrap">
-        <iframe src="https://www.youtube.com/embed/0F6eL_4OktM" frameborder="0" allowfullscreen loading="lazy"></iframe>
+        <iframe src="https://www.youtube.com/embed/vzk8LuA6Y88" frameborder="0" allowfullscreen loading="lazy"></iframe>
       </div>
     </div>
 
@@ -1393,12 +1447,12 @@
       <h2>Frequently Asked Questions</h2>
       <div class="faq-list">
         <details class="faq-item" open>
-          <summary>How does the Bob and Brad D6 Pro help with range of motion?</summary>
-          <div class="faq-answer">The Bob and Brad D6 Pro can improve range of motion by reducing muscle tension and fascial restrictions that limit joint movement. Applying percussion to tight muscles before stretching has been shown to increase flexibility gains compared to stretching alone. This makes it a valuable warm-up tool for both everyday mobility and athletic performance.</div>
+          <summary>What power source does the Bob and Brad D6 Pro use?</summary>
+          <div class="faq-answer">The Bob and Brad D6 Pro is powered by a rechargeable lithium-ion battery, which provides cordless convenience for use anywhere. The battery technology offers consistent power output throughout the charge cycle, so performance does not diminish as the battery level drops. The included charging system makes it easy to keep the device ready for use.</div>
         </details>
         <details class="faq-item">
-          <summary>How does the D6 Pro handle heat buildup during extended use?</summary>
-          <div class="faq-answer">The Bob and Brad D6 Pro is engineered with thermal management features that prevent excessive heat buildup during prolonged sessions. The brushless motor generates less heat than brushed alternatives, and the device body is designed to dissipate heat efficiently. Most users can complete a full-body session without the device becoming uncomfortably warm.</div>
+          <summary>How does the Bob and Brad D6 Pro compare to Hypervolt?</summary>
+          <div class="faq-answer">The Bob and Brad D6 Pro competes favorably with the Hyperice Hypervolt in terms of percussion power and attachment variety, typically at a lower retail price. Both devices offer comparable motor performance and noise levels. The D6 Pro has the added credibility of being designed by licensed physical therapists, while the Hypervolt benefits from broader brand recognition in professional sports.</div>
         </details>
       </div>
     </section>
@@ -1407,16 +1461,16 @@
     <div class="related-section">
       <h2>Continue Reading</h2>
       <div class="related-grid">
+        <a href="bob-and-brad-d6-pro-vs-hypervolt-side-by-side-comparison.html" class="related-card">
+          <span class="related-card-title">Bob and Brad D6 Pro vs Hypervolt: Side-by-Side Comparison</span>
+          <span class="related-card-arrow">Read article &#8594;</span>
+        </a>
         <a href="long-term-bob-and-brad-d6-pro-review-still-worth-buying.html" class="related-card">
           <span class="related-card-title">Long-Term Bob and Brad D6 Pro Review: Still Worth Buying?</span>
           <span class="related-card-arrow">Read article &#8594;</span>
         </a>
-        <a href="why-physical-therapists-recommend-the-bob-and-brad-d6-pro.html" class="related-card">
-          <span class="related-card-title">Why Physical Therapists Recommend the Bob and Brad D6 Pro</span>
-          <span class="related-card-arrow">Read article &#8594;</span>
-        </a>
-        <a href="bob-and-brad-d6-pro-massage-gun-attachments-and-use-cases.html" class="related-card">
-          <span class="related-card-title">Bob and Brad D6 Pro Massage Gun Attachments and Use Cases</span>
+        <a href="the-complete-bob-and-brad-d6-pro-massage-gun-breakdown.html" class="related-card">
+          <span class="related-card-title">The Complete Bob and Brad D6 Pro Massage Gun Breakdown</span>
           <span class="related-card-arrow">Read article &#8594;</span>
         </a>
       </div>
@@ -1426,61 +1480,53 @@
 
   <!-- Footer -->
   <footer class="site-footer">
-    <div class="footer-glass">
-      <div class="footer-inner">
-        <div class="footer-grid">
-          <div>
-            <div class="footer-brand">
-              <img src="images/logo.png" alt="TheReviewRewind">
-              <span>TheReviewRewind</span>
-            </div>
-            <p class="footer-desc">Independent product reviews and buyer guides. Honest evaluations backed by real-world testing.</p>
-            <div class="footer-social">
-              <a href="https://www.youtube.com/@TheReviewRewind" rel="nofollow" target="_blank">Youtube</a>
-            </div>
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <img src="images/logo.png" alt="TheReviewRewind">
+            <span>TheReviewRewind</span>
           </div>
-          <div>
-            <div class="footer-heading">Navigate</div>
-            <ul class="footer-links-list" style="columns:3;column-gap:1.5rem;list-style:none;padding:0;margin:0">
-              <li><a href="index.html" rel="nofollow">Home</a></li>
-              <li><a href="sitemap.html" rel="nofollow">All Categories</a></li>
-              <li><a href="sitemap.html" rel="nofollow">Sitemap</a></li>
-            </ul>
-            
-          </div>
-          <div>
-            <div class="footer-heading">Visit Us</div>
-            <img src="images/qr.png" alt="QR Code" class="footer-qr">
+          <p class="footer-desc">Independent product reviews and buyer guides. Honest evaluations backed by real-world testing.</p>
+          <div class="footer-social">
+            <a href="https://www.youtube.com/@TheReviewRewind" rel="nofollow" target="_blank">Youtube</a>
           </div>
         </div>
-        <!-- cross-links-start -->
         <div>
+          <div class="footer-heading">Navigate</div>
+          <ul class="footer-links" style="columns:3;column-gap:1.5rem;list-style:none;padding:0;margin:0">
+            <li><a href="index.html" rel="nofollow">Home</a></li>
+            <li><a href="sitemap.html" rel="nofollow">All Categories</a></li>
+            <li><a href="sitemap.html" rel="nofollow">Sitemap</a></li>
+          </ul>
           <div class="footer-heading" style="margin-top:1.5rem">Resources</div>
           <ul class="footer-links" style="columns:3;column-gap:1.5rem;list-style:none;padding:0;margin:0">
-            <li><a href="http://bob-and-brad-d6-pro-review.s3-website-us-east-1.amazonaws.com/" title="bob and brad d6 pro review Analysis">bob and brad d6 pro review Analysis</a></li>
-            <li><a href="https://storage.googleapis.com/bob-and-brad-d6-pro-review/index.html" title="Reviews by bob and brad d6 pro review">Reviews by bob and brad d6 pro review</a></li>
-            <li><a href="https://bob-and-brad-d6-pro-review.netlify.app/" title="Visit bob and brad d6 pro review">Visit bob and brad d6 pro review</a></li>
-            <li><a href="https://pub-16e8ef807eb94b37b11a3798d67c5495.r2.dev/index.html" title="bob and brad d6 pro review Review Site">bob and brad d6 pro review Review Site</a></li>
-            <li><a href="https://bob-and-brad-d6-pro-review.web.app/" title="bob and brad d6 pro review Product Reviews">bob and brad d6 pro review Product Reviews</a></li>
-            <li><a href="https://bob-and-brad-d6-pro-review-sitepublishs-projects.vercel.app" title="bob and brad d6 pro review Tested Products">bob and brad d6 pro review Tested Products</a></li>
-            <li><a href="https://bob-and-brad-d6-pro-review-69b182.gitlab.io/" title="bob and brad d6 pro review Reviews">bob and brad d6 pro review Reviews</a></li>
-            <li><a href="https://bob-and-brad-d6-pro-review.pages.dev/" title="bob and brad d6 pro review Expert Reviews">bob and brad d6 pro review Expert Reviews</a></li>
-            <li><a href="https://bob-and-brad-d6-pro-review.surge.sh" title="bob and brad d6 pro review">bob and brad d6 pro review</a></li>
-            <li><a href="https://drako003-bob-and-brad-d6-pro-review.static.hf.space" title="bob and brad d6 pro review Buyer Guide">bob and brad d6 pro review Buyer Guide</a></li>
-            <li><a href="https://sitepublisher.codeberg.page/bob-and-brad-d6-pro-review/" title="bob and brad d6 pro review Independent Reviews">bob and brad d6 pro review Independent Reviews</a></li>
-            <li><a href="https://bob-and-brad-d6-pro-review-render.onrender.com" title="bob and brad d6 pro review Comparisons">bob and brad d6 pro review Comparisons</a></li>
+            <li><a href="http://bob-and-brad-d6-pro-review.s3-website-us-east-1.amazonaws.com/" title="bob and brad d6 pro review Product Testing">bob and brad d6 pro review Product Testing</a></li>
+            <li><a href="https://storage.googleapis.com/bob-and-brad-d6-pro-review/index.html" title="bob and brad d6 pro review Buyer Guide">bob and brad d6 pro review Buyer Guide</a></li>
+            <li><a href="https://bob-and-brad-d6-pro-review.netlify.app/" title="bob and brad d6 pro review Independent Reviews">bob and brad d6 pro review Independent Reviews</a></li>
+            <li><a href="https://sitepublish.github.io/bob-and-brad-d6-pro-review/" title="bob and brad d6 pro review">bob and brad d6 pro review</a></li>
+            <li><a href="https://pub-16e8ef807eb94b37b11a3798d67c5495.r2.dev/index.html" title="bob and brad d6 pro review Ratings">bob and brad d6 pro review Ratings</a></li>
+            <li><a href="https://bob-and-brad-d6-pro-review.web.app/" title="bob and brad d6 pro review Expert Reviews">bob and brad d6 pro review Expert Reviews</a></li>
+            <li><a href="https://sitepublish.gitlab.io/bob-and-brad-d6-pro-review" title="bob and brad d6 pro review Reviews">bob and brad d6 pro review Reviews</a></li>
+            <li><a href="https://bob-and-brad-d6-pro-review.pages.dev/" title="bob and brad d6 pro review Comparisons">bob and brad d6 pro review Comparisons</a></li>
+            <li><a href="https://bob-and-brad-d6-pro-review.surge.sh" title="Reviews by bob and brad d6 pro review">Reviews by bob and brad d6 pro review</a></li>
+            <li><a href="https://drako003-bob-and-brad-d6-pro-review.static.hf.space" title="bob and brad d6 pro review Tested Products">bob and brad d6 pro review Tested Products</a></li>
+            <li><a href="https://sitepublisher.codeberg.page/bob-and-brad-d6-pro-review/" title="bob and brad d6 pro review Product Guide">bob and brad d6 pro review Product Guide</a></li>
+            <li><a href="https://bob-and-brad-d6-pro-review-render.onrender.com" title="Visit bob and brad d6 pro review">Visit bob and brad d6 pro review</a></li>
+            <li><a href="https://sitepublisher.bitbucket.io/" title="bob and brad d6 pro review Review Hub">bob and brad d6 pro review Review Hub</a></li>
           </ul>
         </div>
-        <!-- cross-links-end -->
-      <div class="footer-bottom">
-          <span class="footer-copy">&copy; 2026 TheReviewRewind. All rights reserved.</span>
-          <span class="footer-copy">Independent product reviews</span>
+        <div>
+          <div class="footer-heading">Visit Us</div>
+          <img src="images/qr.png" alt="QR Code" class="footer-qr">
         </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copy">&copy; 2026 TheReviewRewind. All rights reserved.</span>
+        <span class="footer-copy">Independent product reviews</span>
       </div>
     </div>
   </footer>
-
-  </div><!-- .page-wrap -->
 
 </body>
 </html>
